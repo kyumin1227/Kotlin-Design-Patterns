@@ -9,6 +9,7 @@ fun main() {
 
 class Parser {
 
+//    자바의 static 과 동일, 미리 내부 객체의 인스턴스를 만들어 외부 객체의 인스턴스 생성 없이 내부 메소드 이용 가능
     companion object {
         fun server(propertyStrings: List<String>): ServerConfiguration {
             val parsedProperties = mutableListOf<Property>()
