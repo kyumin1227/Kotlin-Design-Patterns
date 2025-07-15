@@ -23,7 +23,7 @@ class MailBuilder {
         val cc : List<String>,
         val title : String,
         val message : String,
-        val important : Boolean
+        val important : Boolean,
     )
 
     fun build(): Mail {
